@@ -32,18 +32,38 @@ version that does not exist.
 
 ## Mother marks
 
-Three lockups, increasing in formality. All share the same shield and fist.
+Four gold marks. The seal is the primary identity; the others are what you
+reach for when the seal will not fit or is not the job.
 
-**Crest** — gold shield, black raised fist on a white field.
-The core mark. Use where a single symbol is needed.
+**Seal — the main logo.** "The Bureau of BIA (Black Internet Alliance)"
+around a gold ring, the United States and Africa rendered in gold and
+joined by an arc, the crest at the centre, "UNITED WE STAND" on a gold
+banner below.
 
-**Badge** — the crest inside a gold ring, "BIA" in gold serif above.
-The compact lockup. Avatars, favicons, app icons.
+This is BIA. Use it as the default wherever the organisation is
+identified: site header, about page, documents, partner and investor
+material, physical goods. It needs roughly 200px to keep its ring text
+legible — below that, use the badge.
 
-**Seal** — the full institutional mark. "The Bureau of BIA (Black Internet
-Alliance)" around the ring, the United States and Africa rendered in gold
-and joined by an arc, "UNITED WE STAND" on a gold banner below.
-Ceremonial use — documents, about pages, physical goods.
+**Badge — the compact lockup.** The crest inside a gold ring with "BIA" in
+gold serif above. Use where the seal would be illegible: avatars,
+favicons, app icons, small UI. It is the seal's stand-in, not a separate
+identity.
+
+**Crest — the symbol alone.** Gold shield, black fist on a white field.
+Use where the name is already present, or where a single unadorned symbol
+is wanted — a watermark, a repeating pattern, an icon beside wordmark
+text.
+
+**Lockup — the system view.** The seal at the centre with the five
+application marks orbiting it on gold arcs. It states the architecture in
+one image: the alliance at the core, the products around it. Use it to
+introduce the whole platform at once. It explains BIA; the seal
+identifies it.
+
+Note that the seal, badge and lockup all keep a white shield and black
+fist at their centre while everything around them is gold. That contrast
+is what holds the centre. Do not gold-fill the shield to match the ring.
 
 ---
 
@@ -62,22 +82,6 @@ Blackboard, speech bubbles in Blackbook.
 **Gold, black and white only.** White is reserved for the shield field
 behind the fist. Nothing else in the system introduces a fourth value, and
 the monochrome variants drop the gold rather than substituting a hue.
-
----
-
-## The system lockup
-
-The full-system composition places the seal at the centre with the five
-application marks orbiting it on gold arcs. It states the architecture in
-one image: the alliance at the core, the products around it.
-
-Use it for the about page, investor and partner material, and anywhere the
-whole platform is being introduced at once. It is not a substitute for the
-seal — the seal identifies BIA, the lockup explains it.
-
-Note that the seal keeps its white shield and black fist at the centre of
-this composition while everything around it is gold. That contrast is what
-holds the centre. Do not gold-fill the shield to match the ring.
 
 ---
 

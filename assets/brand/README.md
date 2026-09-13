@@ -12,12 +12,16 @@ Variant is `gold` or `mono`. Size is the pixel width.
 **The BIA mother marks are gold only** — there is no mono crest, badge or
 seal. The five application marks have both.
 
+**`bia-seal-gold` is the primary BIA logo.** Default to it wherever the
+organisation is identified. Drop to the badge only when the seal is too
+small to read — it needs about 200px for its ring text.
+
 ```
 assets/brand/
 ├── bia/                        gold only
-│   ├── bia-crest-gold.*        shield + fist
-│   ├── bia-badge-gold.*        crest in a ring, "BIA" above
-│   ├── bia-seal-gold.*         full institutional seal
+│   ├── bia-seal-gold.*         PRIMARY — the main BIA logo
+│   ├── bia-badge-gold.*        compact stand-in, for small sizes
+│   ├── bia-crest-gold.*        symbol alone, no wordmark
 │   └── bia-lockup-gold.*       seal with the five apps orbiting
 ├── blackgpt/    blackgpt-gold.svg     blackgpt-mono.svg
 ├── blackbook/   blackbook-gold.svg    blackbook-mono.svg
