@@ -6,19 +6,27 @@
 
 ## The palette
 
-**Gold on black is the system.** Every mark — the mother crest and all five
-applications — has a gold-on-black primary. Monochrome is the secondary,
-for contexts that cannot carry gold.
+**Gold on black is the system.**
+
+The three BIA mother marks are **gold only**. There is no monochrome crest,
+badge or seal — the alliance identity is always rendered in gold.
+
+The five application marks exist in **both** gold and monochrome. Gold is
+primary; monochrome is the secondary, for contexts that cannot carry gold.
 
 | Variant | Use |
 |---|---|
-| **Gold on black** | Primary. Hero placements, marketing, app headers, anywhere the mark leads. |
-| **Monochrome** | Secondary. Single-colour print, favicons, watermarks, small sizes, and any surface where gold reproduces badly. |
+| **Gold on black** | All BIA mother marks, and the primary for every application. Hero placements, marketing, app headers. |
+| **Monochrome** | Applications only. Single-colour print, favicons, watermarks, small sizes, and any surface where gold reproduces badly. |
 
-Both sets are complete and finished. Monochrome came first and stands on
-its own; gold was chosen afterwards for a more premium read, and became the
-primary. Neither is derived from the other, so when a mark changes, update
-both — never redraw one to match the other.
+For the applications, both sets are complete and finished. Monochrome came
+first and stands on its own; gold was chosen afterwards for a more premium
+read, and became the primary. Neither is derived from the other, so when an
+application mark changes, update both — never redraw one to match the other.
+
+The mother marks have no such pair. Where a BIA mark must appear on a
+constrained surface, use the badge rather than reaching for a monochrome
+version that does not exist.
 
 ---
 
@@ -105,6 +113,7 @@ new app.
 - Place the seal on a busy background
 - Use the seal below about 200px — the ring text stops being legible
 - Redraw a variant by hand; gold and monochrome are the same artwork
+- Create a monochrome BIA crest, badge or seal — the mother marks are gold only
 
 ---
 

@@ -9,12 +9,15 @@ rules live in [`docs/BRAND.md`](../../docs/BRAND.md).
 
 Variant is `gold` or `mono`. Size is the pixel width.
 
+**The BIA mother marks are gold only** — there is no mono crest, badge or
+seal. The five application marks have both.
+
 ```
 assets/brand/
-├── bia/
-│   ├── bia-crest-gold.svg      bia-crest-mono.svg
-│   ├── bia-badge-gold.svg      bia-badge-mono.svg
-│   └── bia-seal-gold.svg       bia-seal-mono.svg
+├── bia/                        gold only
+│   ├── bia-crest-gold.svg
+│   ├── bia-badge-gold.svg
+│   └── bia-seal-gold.svg
 ├── blackgpt/    blackgpt-gold.svg     blackgpt-mono.svg
 ├── blackbook/   blackbook-gold.svg    blackbook-mono.svg
 ├── blackgram/   blackgram-gold.svg    blackgram-mono.svg
@@ -45,8 +48,8 @@ blackgpt-gold-32.png
 
 ## Notes
 
-Twelve marks in total: three BIA lockups plus five applications, each in
-gold and mono.
+Thirteen files in total: three BIA lockups in gold only, plus five
+application marks in gold and mono.
 
 SVG is preferred. If a mark only exists as raster, export the largest
 version you have and generate the smaller sizes down from it — never scale
