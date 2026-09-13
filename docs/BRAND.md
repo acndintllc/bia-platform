@@ -45,19 +45,23 @@ identified: site header, about page, documents, partner and investor
 material, physical goods. It needs roughly 200px to keep its ring text
 legible — below that, use the badge.
 
-**Badge — the favicon and app icon.** The crest inside a gold ring with
-"BIA" in gold serif above. This is the icon asset: favicon, app icon,
-avatar, small UI, anywhere the seal would be illegible. It is the seal's
-stand-in, not a separate identity.
+**Badge — the app icon and avatar.** The crest inside a gold ring with
+"BIA" in gold serif above. Use it for app icons, avatars and small UI at
+roughly 128px and up, where the wordmark still reads and earns its place.
 
-Its background is transparent, and that is deliberate — an icon has to sit
-on whatever surface the browser tab, app grid or avatar frame provides.
-Never flatten it onto black to match the other marks.
+Its background is transparent, and that is deliberate — an icon sits on
+whatever surface the app grid or avatar frame provides. Never flatten it
+onto black to match the other marks.
 
-**Crest — the symbol alone.** Gold shield, black fist on a white field.
-Use where the name is already present, or where a single unadorned symbol
-is wanted — a watermark, a repeating pattern, an icon beside wordmark
-text.
+**Crest — the favicon and small-size mark.** Gold shield, black fist on a
+white field. Also used where the name is already present, or where a
+single unadorned symbol is wanted — a watermark, a repeating pattern, an
+icon beside wordmark text.
+
+The crest is the favicon because it is the only mark that survives 32px.
+Tested side by side: at 32px the crest keeps its fingers separated and its
+shield distinct, while the badge reduces to a dark blob under a smudged
+wordmark. Fewer layers, more pixels each.
 
 **Lockup — the system view.** The seal at the centre with the five
 application marks orbiting it on gold arcs. It states the architecture in

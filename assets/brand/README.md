@@ -16,7 +16,14 @@ seal. The five application marks have both.
 organisation is identified. Drop to the badge only when the seal is too
 small to read — it needs about 200px for its ring text.
 
-**`bia-badge-gold` is the favicon and app icon.** Its transparent
+**`bia-crest-gold` is the favicon.** It is the only mark that survives
+32px — tested against the badge, which reduces to a blob at that size. Its
+ladder runs 16 to 512px with transparent backgrounds, plus `favicon.ico`
+carrying 16/32/48/64/128/256 in one file. The black background of the
+source was removed by flood-filling from the border, so the fist — also
+black — is preserved.
+
+**`bia-badge-gold` is the app icon and avatar,** Its transparent
 background is intentional; keep it that way. The PNG ladder is generated
 and committed at 512, 256, 128, 64 and 32px.
 
@@ -35,7 +42,9 @@ so scaling it directly would have inherited that drift.
 assets/brand/
 ├── bia/                        gold only
 │   ├── bia-seal-gold.*         PRIMARY — the main BIA logo
-│   ├── bia-badge-gold.*        favicon / app icon — transparent bg
+│   ├── bia-badge-gold.*        app icon / avatar, 128px and up
+│   ├── bia-crest-gold-*.png    FAVICON ladder, transparent, 16-512px
+│   ├── favicon.ico             multi-resolution, 16-256px
 │   ├── bia-crest-gold.*        symbol alone, no wordmark
 │   └── bia-lockup-gold.*       seal with the five apps orbiting
 ├── blackgpt/    blackgpt-gold.svg     blackgpt-mono.svg
