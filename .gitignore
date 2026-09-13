@@ -1,0 +1,28 @@
+# Private overlay — never committed.
+# Identity, business strategy and operational thresholds live here.
+private/
+private/**
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+.claude/secrets.json
+.claude/local.json
+
+# Dependencies / build
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
