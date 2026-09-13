@@ -16,11 +16,15 @@ seal. The five application marks have both.
 organisation is identified. Drop to the badge only when the seal is too
 small to read — it needs about 200px for its ring text.
 
+**`bia-badge-gold` is the favicon and app icon.** Its transparent
+background is intentional; keep it that way. This is the one mark that
+needs the full PNG size ladder down to 32px.
+
 ```
 assets/brand/
 ├── bia/                        gold only
 │   ├── bia-seal-gold.*         PRIMARY — the main BIA logo
-│   ├── bia-badge-gold.*        compact stand-in, for small sizes
+│   ├── bia-badge-gold.*        favicon / app icon — transparent bg
 │   ├── bia-crest-gold.*        symbol alone, no wordmark
 │   └── bia-lockup-gold.*       seal with the five apps orbiting
 ├── blackgpt/    blackgpt-gold.svg     blackgpt-mono.svg

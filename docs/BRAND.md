@@ -45,10 +45,14 @@ identified: site header, about page, documents, partner and investor
 material, physical goods. It needs roughly 200px to keep its ring text
 legible — below that, use the badge.
 
-**Badge — the compact lockup.** The crest inside a gold ring with "BIA" in
-gold serif above. Use where the seal would be illegible: avatars,
-favicons, app icons, small UI. It is the seal's stand-in, not a separate
-identity.
+**Badge — the favicon and app icon.** The crest inside a gold ring with
+"BIA" in gold serif above. This is the icon asset: favicon, app icon,
+avatar, small UI, anywhere the seal would be illegible. It is the seal's
+stand-in, not a separate identity.
+
+Its background is transparent, and that is deliberate — an icon has to sit
+on whatever surface the browser tab, app grid or avatar frame provides.
+Never flatten it onto black to match the other marks.
 
 **Crest — the symbol alone.** Gold shield, black fist on a white field.
 Use where the name is already present, or where a single unadorned symbol
