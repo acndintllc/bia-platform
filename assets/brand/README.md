@@ -17,8 +17,19 @@ organisation is identified. Drop to the badge only when the seal is too
 small to read — it needs about 200px for its ring text.
 
 **`bia-badge-gold` is the favicon and app icon.** Its transparent
-background is intentional; keep it that way. This is the one mark that
-needs the full PNG size ladder down to 32px.
+background is intentional; keep it that way. The PNG ladder is generated
+and committed at 512, 256, 128, 64 and 32px.
+
+The badge holds up cleanly to 64px. At 32px the wordmark smudges and the
+fist reduces to a dark mass — the mark carries four layers (ring, BIA,
+shield, fist) and 32x32 cannot render them. It is still serviceable, since
+a tab icon is recognised by colour and silhouette, but a purpose-drawn
+32px mark — the fist alone, or the shield without ring text — would be
+sharper. That is a design task, not a downscale.
+
+Sizes were produced by trimming to content, re-centring on a square
+canvas, then resampling with Lanczos. The source was off-centre by 24px,
+so scaling it directly would have inherited that drift.
 
 ```
 assets/brand/
