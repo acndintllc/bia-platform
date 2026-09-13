@@ -178,6 +178,44 @@ under that app's path.
 
 ---
 
+## 7a. BlackGPT is deferred
+
+BlackGPT does not ship in the first release. It waits until its retrieval
+layer exists.
+
+**Why.** Every other application inherits a working product — Misskey
+federates, Strapi manages content, OpenCollective handles money. BlackGPT
+is the only one where the work *is* the product. Without a curated corpus
+it is a chat interface over a general model, which is both undifferentiated
+and a promise the platform cannot keep: general web ranking reflects who
+has search budget and institutional authority, which is the bias the
+platform exists to route around.
+
+**What it needs first.** A three-tier retrieval layer:
+
+1. **Owned corpus** — documents ingested and indexed directly. Public
+   domain archives, open-access scholarship, government data, community
+   contributions. This is the part nobody can reach through an API, and
+   therefore the only durable advantage.
+2. **Curated live sources** — a domain allowlist queried directly rather
+   than through general ranking. The list is editorial policy.
+3. **General fallback** — used only when the first two return nothing, and
+   labelled as such.
+
+Answers state which tier they came from. That transparency is the feature.
+
+**Known obstacles.** Much twentieth-century Black press sits behind
+exclusive digitisation agreements; pre-1929 material is public domain and
+clean, the richest later period is not. Curation is ongoing labour rather
+than a build, which is exactly why it is defensible. Coverage gaps are
+certain, so the fallback must be honest rather than improvising.
+
+**Consequence for pricing.** The tier model places BlackGPT alone in
+Premium. With it deferred, Premium has no contents at launch. The launch
+tiers need revisiting before release.
+
+---
+
 ## 8. Decisions locked
 
 - Five apps
@@ -187,3 +225,5 @@ under that app's path.
 - Misskey forks kept in separate repositories, HTTP-only coupling
 - One Supabase project, five schemas
 - Cloudflare R2 for storage
+- BlackGPT deferred until its retrieval layer exists; core therefore needs
+  no usage metering or inference budgeting in the first release
