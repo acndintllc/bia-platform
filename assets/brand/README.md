@@ -15,9 +15,10 @@ seal. The five application marks have both.
 ```
 assets/brand/
 ├── bia/                        gold only
-│   ├── bia-crest-gold.svg
-│   ├── bia-badge-gold.svg
-│   └── bia-seal-gold.svg
+│   ├── bia-crest-gold.*        shield + fist
+│   ├── bia-badge-gold.*        crest in a ring, "BIA" above
+│   ├── bia-seal-gold.*         full institutional seal
+│   └── bia-lockup-gold.*       seal with the five apps orbiting
 ├── blackgpt/    blackgpt-gold.svg     blackgpt-mono.svg
 ├── blackbook/   blackbook-gold.svg    blackbook-mono.svg
 ├── blackgram/   blackgram-gold.svg    blackgram-mono.svg
@@ -48,8 +49,13 @@ blackgpt-gold-32.png
 
 ## Notes
 
-Thirteen files in total: three BIA lockups in gold only, plus five
-application marks in gold and mono.
+Fourteen files in total: four BIA marks in gold only — crest, badge, seal
+and the system lockup — plus five application marks in gold and mono.
+
+Current assets are raster (PNG/JPEG) at roughly 1200–1700px. SVG versions
+do not exist yet; trace them when a mark needs to scale cleanly. Only
+`bia-badge-gold.png` has a transparent background — the rest carry their
+black field, so they need a dark surface or a re-export to sit elsewhere.
 
 SVG is preferred. If a mark only exists as raster, export the largest
 version you have and generate the smaller sizes down from it — never scale
